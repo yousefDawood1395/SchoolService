@@ -1,0 +1,3 @@
+﻿namespace SchoolService.Infrastructure.Tests.SchoolsDbContextFixtures;
+[CollectionDefinition(nameof(SchoolsDbContextFixtureCollectionDefinition))]
+public class SchoolsDbContextFixtureCollectionDefinition : ICollectionFixture<SchoolsDbContextFixture> { }
